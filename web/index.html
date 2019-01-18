@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>"Weryfikator Pesel Nip Regon"</title>
+    </head>
+    <body>
+        <h1>WERYFIKATOR  Pesel, Nip, Regon </h1>
+
+        <hr>
+        <form action="VerificationNumberServlet" method="GET">
+            <p>Podaj numer (Pesel, Nip lub Regon) <input type=text size=30 name=number></p>
+            <input type="submit" name="action" value="Sprawdz numer" />
+        </form>
+
+        <p>
+        <form action="VerificationNumberServlet" method="GET">
+            <input type="submit" name="action" value="Historia" />
+        </form>
+        <p>
+        <form action="VerificationNumberServlet" method="GET">
+            <input type="submit"  name="action" value="Ciasteczka" />
+        </form> 
+    </body>
+</html>
